@@ -1,0 +1,11 @@
+.social-links {
+  @include list-reset;
+  display: flex;
+  justify-content: space-between;
+  min-width: 119px;
+  opacity: 0.6;
+}
+
+.social-links__link {
+  @include base-state;
+}
